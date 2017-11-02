@@ -1,0 +1,22 @@
+.btn{
+    border-radius: 0;
+    border-width: 0px;
+
+
+}
+.btn-success{
+    background-color: #8aea92;
+    color: black;
+
+}
+
+.btn-default{
+    background-color: #3b5249;
+    color: white;
+}
+
+.btn-cancel{
+    background-color: #fec2c2;
+    color: black;
+}
+
