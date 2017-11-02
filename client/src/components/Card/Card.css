@@ -1,0 +1,13 @@
+.card{
+    background-color: #f6f0f0;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-image{
+    background-color: grey;
+    min-width: 150px;
+    max-width: 150px;
+    height: 150px;
+}
