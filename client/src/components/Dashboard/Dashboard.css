@@ -1,9 +1,12 @@
 .left {
     background-color: #afd4c0;
+    height: 90%vh;
 }
 .right {
     background-color: #afd4c0;
+    height: 90%vh;
 }
 .center {
     background:linear-gradient(to bottom, #e2f3ea, #ffffff);
+    height: 90%vh;
 }
