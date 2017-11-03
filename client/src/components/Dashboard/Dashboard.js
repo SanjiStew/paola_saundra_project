@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Dashboard.css';
 import Header from './../Header/Header';
 
-className Dashboard extends Component {
+class Dashboard extends Component {
     render() {
         return (
             <div>
