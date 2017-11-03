@@ -8,7 +8,7 @@ class Dashboard extends Component {
             <div>
                 <Header />
                 <div className="container">
-                    <div className="row">
+                   
                         <div className="left col-sm">
                            
                         </div>
@@ -20,7 +20,7 @@ class Dashboard extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            
         );
     }
 }
