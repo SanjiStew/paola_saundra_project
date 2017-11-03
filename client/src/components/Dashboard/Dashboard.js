@@ -2,20 +2,20 @@ import React, { Component } from 'react';
 import './Dashboard.css';
 import Header from './../Header/Header';
 
-class Dashboard extends Component {
+className Dashboard extends Component {
     render() {
         return (
             <div>
                 <Header />
-                <div class="container">
-                    <div class="row">
-                        <div class="left col-sm">
+                <div className="container">
+                    <div className="row">
+                        <div className="left col-sm">
                            
                         </div>
-                        <div class="center col-md">
+                        <div className="center col-md">
                            
                          </div>
-                        <div class="right col-sm">
+                        <div className="right col-sm">
                           
                         </div>
                     </div>
