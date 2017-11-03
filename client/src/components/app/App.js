@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import Card from '../Card/Card';
 import Button from '../Buttons/Button';
 import Input from '../Input/Input';
+import Dashboard from '../Dashboard/Dashboard';
 
 
 class App extends Component {
@@ -11,9 +12,7 @@ class App extends Component {
     return (
       <div>
       <Header/>
-      <Card/>
-      <Input label="Desired Rent"/>
-      <Input multiline={true}/>
+      <Dashboard/>
       </div>
     );
   }
