@@ -1,0 +1,9 @@
+.left {
+    background-color: #afd4c0;
+}
+.right {
+    background-color: #afd4c0;
+}
+.center {
+    background:linear-gradient(to bottom, #e2f3ea, #ffffff);
+}
