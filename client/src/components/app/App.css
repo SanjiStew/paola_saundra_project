@@ -3,6 +3,8 @@
   }
   body{
     background-color: #afd4c0;
+    font-family: Open-Sans, sans-serif;
+    padding: 0px;
   }
   main{
     width: 850px;
@@ -27,6 +29,10 @@
   .pad{
     padding:8px;
   }
+
+  .right {
+    margin-left: auto;
+ }
 
   
   

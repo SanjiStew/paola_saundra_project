@@ -1,17 +1,17 @@
 import React, {Component} from 'react';
-import './Wizard1.css';
+import './Wizard2.css';
 import Dashboard from '../../Dashboard/Dashboard';
 import Button from './../../Buttons/Button';
 
-class Wizard1 extends Component{
+class Wizard2 extends Component{
     render() {
         return(
             <div className="container">
-            Wizard1
+            Wizard2
                 
             </div>
         );
     }
 }
 
-export default Wizard1;
+export default Wizard2;

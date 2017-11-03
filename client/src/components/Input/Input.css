@@ -5,4 +5,12 @@
 .Input-text {
     border: 1px solid #3b5249;
     width:100%;
+    font-size: 20pt;
+}
+
+.Input-label{
+    padding: 30px 10px 5px 20px;
+    font-size: 18pt;
+    font-weight: bolder;
+    
 }
