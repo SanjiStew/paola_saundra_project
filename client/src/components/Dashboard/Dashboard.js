@@ -5,7 +5,7 @@ import Header from './../Header/Header';
 class Dashboard extends Component {
     render() {
         return (
-            <div>
+            <div style={{ height:'100%'}}>
                 <Header />
                 <div className="container-fluid">
                     <div className="row">

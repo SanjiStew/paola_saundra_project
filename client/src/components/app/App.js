@@ -8,7 +8,7 @@ import Dashboard from '../Dashboard/Dashboard';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div style={{ height:'100%'}}>
       <Header/>
       <Dashboard/>
       </div>
