@@ -7,20 +7,22 @@ class Dashboard extends Component {
         return (
             <div>
                 <Header />
-                <div className="container">
-                   
+                <div className="container-fluid">
+                    <div className="row">
+
                         <div className="left col-sm">
-                           
+
                         </div>
                         <div className="center col-md">
-                           
-                         </div>
+
+                        </div>
                         <div className="right col-sm">
-                          
+
                         </div>
                     </div>
                 </div>
-            
+            </div>
+
         );
     }
 }
