@@ -54,6 +54,7 @@ class WizardFrame extends Component {
                         this.props.step == 5 ? <Wizard5/> :
                         null
                     }
+                  
                 </div>
             </div>
         );

@@ -1,13 +1,17 @@
 import React, {Component} from 'react';
 import './Wizard2.css';
-import Dashboard from '../../Dashboard/Dashboard';
-import Button from './../../Buttons/Button';
+import Input from './../../Input/Input';
 
 class Wizard2 extends Component{
     render() {
         return(
-            <div className="container">
-            Wizard2
+            <div className="Wizard2">
+                    <Input label='Address'/>
+                <div>
+                    <Input label='City'/>
+                    <Input label='State'/>
+                </div>
+                    <Input label='Zip'/>
                 
             </div>
         );
