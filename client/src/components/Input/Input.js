@@ -12,7 +12,7 @@ class Input extends Component {
                 }
                 {
                     this.props.multiline ? 
-                        <textarea type="text" className="Input-text"></textarea> :
+                        <textarea type="text" className="Input-text" rows={this.props.rows|| 4}></textarea> :
                         <input type="text" className="Input-text"></input>
                 }
             </div>

@@ -1,0 +1,12 @@
+.image-box{
+    height: 300px;
+    background-color:lightgray;
+    margin-top: 30px;
+    border: 1px solid #519872;
+    line-height: 300px;
+}
+.preview{
+    vertical-align: middle;
+    text-align: center;
+
+}

@@ -1,15 +1,16 @@
 import React, {Component} from 'react';
 import './Wizard1.css';
-import Dashboard from '../../Dashboard/Dashboard';
+
 import Button from './../../Buttons/Button';
+import Input from './../../Input/Input';
 
 class Wizard1 extends Component{
     render() {
         return(
-            <div className="container">
-            Wizard1
-                
-            </div>
+            <div>
+                <Input label="Property Name"/>
+                <Input multiline={true} label="Property Description"/>
+             </div>
         );
     }
 }
