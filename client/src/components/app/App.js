@@ -16,19 +16,23 @@ class App extends Component {
     }
   }
   render() {
+    
     return (
-
-
-
       <div>
-        {
-          this.state.loggedin ? <Header/> : null
-        }
+        <Router>
+            <Switch>
+              <Route exact path='/'  component={null}/>
+              <Route  component={Header}/>
+            </Switch>
+        </Router>
         <main>
             <Router>
                <Switch>
                  <Route exact path='/'  component={Login}/>
-                 <Route  exact path='/Wizard/:step' render={(props)=><WizardFrame step={props.match.params.step}/>}/>
+                 <Route path='/dashboard' component={Dashboard}/>
+                 <Route exact path='/Wizard/:step' render={
+                   (props)=><WizardFrame step={props.match.params.step}/>
+                }/>
                  
                 </Switch>
 
